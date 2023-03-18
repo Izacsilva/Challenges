@@ -1,5 +1,5 @@
 .data {
-    padding: 24px;
+    padding: 32px;
     font-size: 16px;
     color: var(--Dark-gray-blue);
 }
@@ -19,6 +19,8 @@
 
     padding: 14px;
     margin-bottom: 16px;
+
+    transition: all 200ms ease-in;
 }
 
 .data-type {
@@ -82,5 +84,7 @@ button {
     font-weight: 700;
 
     width: 100%;
+    margin-top: 16px;
     padding: 16px;
+
 }

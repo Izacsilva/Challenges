@@ -1,4 +1,7 @@
 .container {
     background-color: var(--White);
     width: 340px;
+    margin-bottom: 56px;
+
+    box-shadow: 6px 6px 16px hsla(252, 35%, 50%, 0.271);
 }
