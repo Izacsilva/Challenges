@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/styles/default.css">
+  <link rel="stylesheet" href="./assets/styles/container.css">
+  <link rel="stylesheet" href="./assets/styles/resume.css">
+  <link rel="stylesheet" href="./assets/styles/data.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
@@ -16,28 +20,69 @@
 </head>
 <body>
 
-  Your Result
-  76
-  of 100
+  <div class="container">
+    <section class="resume">
+      <p class="result-title">Your Result</p>
+      <div class="resume-numbers">
+        <h1 class="result-value">76</h1>
+        <p class="result-total">of 100</p>
+      </div>
+      <h2 class="result-text">Great</h2>
+      <p class="result-description">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+    <section class="data">
+      <h2 class="data-title">
+        Summary
+      </h2>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
+      <div class="content">
+        <div class="forType">
+          <div class="data-type">
+            <img src="/Challenge-03_results-summary/assets/images/icon-reaction.svg" alt="">
+            <p>Reaction</p>
+          </div>
+          <div class="data-total">
+            <span class="data-stage">80</span><span class="data-target">/ 100</span>
+          </div>
+        </div>
+
+        <div class="forType">
+          <div class="data-type">
+            <img src="/Challenge-03_results-summary/assets/images/icon-memory.svg" alt="">
+            <p>Memory</p>
+          </div>
+          <div class="data-total">
+            <span class="data-stage">92</span><span class="data-target">/ 100</span>
+          </div>
+        </div>
+
+        <div class="forType">
+          <div class="data-type">
+            <img src="/Challenge-03_results-summary/assets/images/icon-verbal.svg" alt="">
+            <p>Verbal</p>
+          </div>
+          <div class="data-total">
+            <span class="data-stage">61</span><span class="data-target">/ 100</span>
+          </div>
+        </div>
+
+        <div class="forType">
+          <div class="data-type">
+            <img src="/Challenge-03_results-summary/assets/images/icon-visual.svg" alt="">
+            <p>Visual</p>
+          </div>
+          <div class="data-total">
+            <span class="data-stage">72</span><span class="data-target">/ 100</span>
+          </div>
+        </div>
+
+      </div>
+
+      <button>Continue</button>
+    </section>
+  </div>
+
   
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
