@@ -1,3 +1,86 @@
-.data{
-    background-color: var(--White);
+.data {
+    padding: 24px;
+    font-size: 16px;
+    color: var(--Dark-gray-blue);
+}
+
+.data-title {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.forType {
+    /* background: var(--Light-lavender); */
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 14px;
+    margin-bottom: 16px;
+}
+
+.data-type {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.forType.reaction{
+    background-color: var(--Light-red-opacity);
+    
+}
+
+.reaction .data-type p {
+    color: var(--Light-red);
+}
+
+.data-total {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.data-target {
+    color: #00005048;
+}
+
+.forType.memory{
+    background-color: var(--Orangey-yellow-opacity);
+    
+}
+
+.memory .data-type p {
+    color: var(--Orangey-yellow);
+}
+
+.forType.verbal{
+    background-color: var(--Green-teal-opacity);
+    
+}
+
+.verbal .data-type p {
+    color: var(--Green-teal);
+}
+
+.forType.visual{
+    background-color: var(--Cobalt-blue-opacity);
+    
+}
+
+.visual .data-type p {
+    color: var(--Cobalt-blue);
+}
+
+button {
+    color: var(--White);
+    background-color: var(--Dark-gray-blue);
+
+    border: none;
+    border-radius: 24px;
+
+    font-weight: 700;
+
+    width: 100%;
+    padding: 16px;
 }
