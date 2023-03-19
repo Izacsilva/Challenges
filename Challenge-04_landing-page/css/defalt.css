@@ -1,0 +1,41 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* primary color */
+
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+
+    /* Gradients */
+
+
+    /* Neutral */
+
+
+    font-size: 62.5%;
+
+}
+
+body {
+
+    background: var(--Violet);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+
+    font-size: 1.6rem;
+}
