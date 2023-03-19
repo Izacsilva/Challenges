@@ -1,1 +1,24 @@
 @import url(./defalt.css);
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    width: 100%;
+}
+
+.footer__social img {
+    width: 7%;
+}
+
+.attribution a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.2rem;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+}
