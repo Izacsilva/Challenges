@@ -1,1 +1,5 @@
 @import url(./header.css);
+
+.header__logo {
+    width: 50%;
+}

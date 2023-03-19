@@ -1,0 +1,8 @@
+@import url(./defalt.css);
+
+.wrap {
+    color: white;
+    background-image: url(../images/bg-mobile.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+}

@@ -1,1 +1,11 @@
 @import url(./defalt.css);
+
+.main__hero {
+    
+    
+    width: 90%;
+}
+
+.hero__img {
+    width: 100%;
+}

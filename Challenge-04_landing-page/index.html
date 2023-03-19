@@ -1,56 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
- <link rel="stylesheet" href="./css/header.css">
- <link rel="stylesheet" href="./css/main.css">
- <link rel="stylesheet" href="./css/footer.css">
- 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,600;1,400&display=swap');
-  </style>
+    <link rel="stylesheet" href="./css/wrap.css">
 
-  <title>Huddle landing | Frontend Mentor</title>
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,600;1,400&display=swap");
+    </style>
 
-  <header>
-    <img src="./images/logo.svg" alt="Logotipo Hunddle">
-  </header>
-  <main>
-    <h1>Build The Community Your Fans Will Love</h1>
+    <title>Huddle landing | Frontend Mentor</title>
 
-    <p>
-      Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-      Create connections with your users as you engage in genuine discussion. 
-    </p>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="wrap">
+
+      <header class="container">
+        <img
+          src="./images/logo.svg"
+          class="header__logo"
+          alt="Logotipo Hunddle"
+        />
+      </header>
+      <main class="container">
+        <section class="main__hero">
+          
+          <img
+            src="./images/illustration-mockups.svg"
+            class="hero__img"
+            alt="illustration-mockups"
+          />
+
+        </section>
   
-    <button>
-      Register
-    </button>
-  </main>
+        <section class="main__content">
+          <h1 class="main__title">Build The Community Your Fans Will Love</h1>
   
-
-  <footer>
-
-    <div class="social__media">
-      face twiter insta
+          <p class="main__description">
+            Huddle re-imagines the way we build communities. You have a voice, but
+            so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+  
+          <button class="main__button">Register</button>
+        </section>
+      </main>
+  
+      <footer class="container">
+        <div class="footer__social social__media">face twiter insta</div>
+  
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Your Name Here</a>.
+        </p>
+      </footer>
     </div>
 
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    
+  </body>
 </html>
