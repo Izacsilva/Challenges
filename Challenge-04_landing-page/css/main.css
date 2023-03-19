@@ -1,11 +1,32 @@
 @import url(./defalt.css);
 
 .main__hero {
-    
-    
-    width: 90%;
+    width: 100%;
+
 }
 
 .hero__img {
     width: 100%;
+}
+
+.main__content {
+    text-align: center;
+
+    padding: 0 1.2rem;
+}
+
+.main__description {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.main__button {
+    color: var(--Violet);
+    border: none;
+    border-radius: 2.4rem;
+    box-shadow: .2rem .4rem .4rem rgba(0, 0, 0, 0.2);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    padding: 1.2rem;
+    width: 80%;
 }

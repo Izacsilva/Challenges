@@ -1,5 +1,6 @@
-@import url(./header.css);
+@import url(./defalt.css);
 
 .header__logo {
-    width: 50%;
+    width: 40%;
+    padding: 3.2rem 0;
 }
