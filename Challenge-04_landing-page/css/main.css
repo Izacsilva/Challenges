@@ -30,3 +30,8 @@
     padding: 1.2rem;
     width: 80%;
 }
+
+.main__button:hover {
+    color: white;
+    background-color: var(--Soft-Magenta);
+}

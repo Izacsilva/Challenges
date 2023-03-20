@@ -12,7 +12,12 @@ footer {
 }
 
 .footer__social img {
+    fill:red;
     width: 7%;
+}
+
+.ionicon {
+    fill:red;
 }
 
 .attribution a {
