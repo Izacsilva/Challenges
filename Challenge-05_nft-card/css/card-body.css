@@ -1,6 +1,7 @@
 .card__body__title{
     font-size: 2.4rem;
     letter-spacing: 0.1rem;
+    transition: color 0.3s ease-out;
 
   }
 

@@ -2,6 +2,8 @@
 @import url(./card-header.css);
 @import url(./card-body.css);
 @import url(./card-footer.css);
+@import url(./interation.css);
+
 
 #card{
     background: var(--Very-dark-blue-card);
