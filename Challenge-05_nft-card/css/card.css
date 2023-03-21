@@ -1,23 +1,11 @@
 @import url(./default.css);
+@import url(./card-header.css);
+@import url(./card-body.css);
+@import url(./card-footer.css);
 
 #card{
     background: var(--Very-dark-blue-card);
     max-width: 32.0rem;
     padding: 2.4rem;
     border-radius: 1.6rem;
-}
-
-.card__header {
-    width: 100%;
-    
-}
-
-.card__header img {
-    border-radius: 1.6rem;
-    width: 100%;
-}
-
-.card__title {
-  color: white;
-  font-size: 1.rem;
 }

@@ -1,0 +1,11 @@
+.card__header {
+    width: 100%;
+    
+}
+
+.card__header img {
+    border-radius: 1.6rem;
+    width: 100%;
+}
+
+
