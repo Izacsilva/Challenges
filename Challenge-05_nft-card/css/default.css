@@ -14,7 +14,8 @@
     --Soft-blue: hsl(215, 51%, 70%);
     --Soft-Magenta: hsl(300, 69%, 71%);
     --Cyan: hsl(178, 100%, 50%);
-
+    --CyanOpacity: hsla(178, 100%, 50%, 0.4);
+    
     /* Gradients */
 
 

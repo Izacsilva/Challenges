@@ -90,3 +90,11 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+
+
+
+Este projeto me desafiou a procurar informações para colocar uma cor sobre a imagem e o icone de olho. No fim, não foi tão difícil, e descidi fazer
+utilizando o background em uma div, chamando o icone e a cor com opacidade 
+
+criando uma div por cima da imagem com cor e opacidade usando o hsla, chamando dentro da propriedade do background a imagem e a cor e o hover pra ativar e desativar a visualização do elemento.
