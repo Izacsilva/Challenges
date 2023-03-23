@@ -1,0 +1,12 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 1.8rem;
+}
+
+.content__tag {
+    color: var(--Dark-grayish-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-size: 1.2rem;
+}

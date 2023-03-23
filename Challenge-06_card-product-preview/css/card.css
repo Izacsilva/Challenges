@@ -1,0 +1,11 @@
+@import url(./content.css);
+.card {
+    width: 32.0rem;
+    background-color: white;
+    border-radius: 1.6rem;
+}
+
+.header img {
+    border-radius: 1.6rem 1.6rem 0  0 ;
+    width: 100%;
+}

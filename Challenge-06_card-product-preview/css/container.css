@@ -1,0 +1,14 @@
+@import url(./default.css);
+
+
+.container {
+    color: var(--Very-dark-blue);
+    background: var(--Cream);
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
