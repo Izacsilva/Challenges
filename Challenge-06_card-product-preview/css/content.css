@@ -10,3 +10,43 @@
     letter-spacing: 0.4rem;
     font-size: 1.2rem;
 }
+
+.content__title {
+    font-family: 'Fraunces', serif;
+    font-size: 3.0rem;
+    line-height: 3.2rem;
+}
+
+.content__description {
+    color: var(--Dark-grayish-blue);
+    font-size: 1.4rem;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+
+.price span:nth-child(1) {
+    color: var(--Dark-cyan);
+    font-family: 'Fraunces', serif;
+    font-size: 3.0rem;
+}
+
+.price span:nth-child(2) {
+    color: var(--Dark-grayish-blue);
+    text-decoration: line-through;
+    font-size: 1.4rem;
+}
+
+button {
+    color: var(--White);
+    background: var(--Dark-cyan);
+    border: none;
+    border-radius: 0.8rem;
+    font-weight: 700;
+    font-family: 'Montserrat' sans-serif;
+    padding: 1.6rem 0;
+}
