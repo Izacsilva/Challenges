@@ -32,12 +32,27 @@
 body {
     font-size: 1.6rem;
     font-family: 'Montserrat', 'Fraunces', serif;
+
 }
 
 .margin-bt-lg { /*margin-bottom-large*/
-    margin-bottom: 2.4rem;
+    margin-bottom: 3.2rem;
 }
 
 .margin-bt-sm { /*margin-bottom-small*/
     margin-bottom: 1.8rem;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.alignColumn {
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRun {
+    display: flex;
 }

@@ -1,11 +1,15 @@
 @import url(./content.css);
+
 .card {
     width: 32.0rem;
     background-color: white;
     border-radius: 1.6rem;
 }
 
-.header img {
-    border-radius: 1.6rem 1.6rem 0  0 ;
+.imgProductor {
+    background: url(../images/image-product-mobile.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 1.6rem 1.6rem 0  0;
     width: 100%;
+    height: 24.0rem;
 }

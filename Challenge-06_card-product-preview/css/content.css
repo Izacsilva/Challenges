@@ -1,6 +1,4 @@
 .content {
-    display: flex;
-    flex-direction: column;
     padding: 1.8rem;
 }
 
@@ -23,7 +21,6 @@
 }
 
 .price {
-    display: flex;
     align-items: center;
     gap: 1.2rem;
 }
@@ -49,4 +46,18 @@ button {
     font-weight: 700;
     font-family: 'Montserrat' sans-serif;
     padding: 1.6rem 0;
+
+    transition: background .3s ease-in;
+
+    gap: 0.8rem;
+}
+
+button.btn:before {
+    content: url(../images/icon-cart.svg);
+}
+
+button.btn:hover {
+    background: hsl(158, 40%, 26%);
+    cursor: pointer;
+    transition: background .3s ease-in;
 }
