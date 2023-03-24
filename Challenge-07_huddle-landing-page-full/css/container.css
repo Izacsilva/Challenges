@@ -1,0 +1,24 @@
+@import url(./default.css);
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./services.css);
+@import url(./banner.css);
+@import url(./footer.css);
+
+.container {
+    background: url(../images/bg-hero-mobile.svg) no-repeat;
+    background-position: top;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 2.4rem;
+    width: 37.5rem;
+
+    text-align: center;
+
+}
+
