@@ -1,0 +1,79 @@
+footer {
+    background: hsl(192, 100%, 9%);
+    color: white;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer header {
+    margin: 12.8rem 0 3.2rem;
+    display: flex;
+}
+
+.footer .footer__logo {
+    fill: white;
+
+    width: 50%;
+}
+
+.footer__contacts li{
+    display: flex;
+    gap: 2.4rem;
+}
+
+.footer__contacts li > img {
+    height: 1.8rem;
+}
+
+.footer__contacts li p {
+    text-align: start;
+    font-size: 1.8rem;
+}
+
+
+.footer__about li, .footer__pages li {
+    margin-top: 1.8rem;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+}
+
+.footer__social .ionicon {
+    width: 3.2rem;
+    fill: white;
+    transition: fill ease-in 0.3s;
+    cursor: pointer;
+}
+
+.footer__social .ionicon:hover {
+    fill: var(--Pink);
+    transition: fill ease-out 0.3s;
+}
+
+
+.attribution {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    
+    text-align: center;
+    line-height: 1.8rem;
+  }
+  .attribution a {
+      color: var(--Pink);
+      font-weight: bold;
+      
+      
+    }

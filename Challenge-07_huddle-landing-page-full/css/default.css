@@ -32,16 +32,20 @@ body {
 
 }
 
-img {
-    width: 32.0rem;
+ul {
+    list-style: none;
 }
 
 .margin-bt-lg { /*margin-bottom-large*/
-    margin-bottom: 6.4rem;
+    margin-bottom: 4.8rem;
 }
 
 .margin-bt-sm { /*margin-bottom-small*/
-    margin-bottom: 1.8rem;
+    margin-bottom: 2.8rem;
+}
+
+.frame {
+    padding: 0 2.4rem;
 }
 
 .flexColumn {
