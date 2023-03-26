@@ -1,5 +1,6 @@
 .hero {
     min-width: 32.0rem;
+    text-align: center;
 }
 
 .hero__title {
