@@ -64,7 +64,15 @@
             letter-spacing: 0.06rem;
             padding: 1.6rem 0;
             width: 70%;
+
+            transition: 0.3s ease-in;
         }
+
+            .banner__btn:hover {
+                opacity: 0.6;
+                cursor: pointer;
+                transition: 0.3s ease-out;
+            }
 
 
     

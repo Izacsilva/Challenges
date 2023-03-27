@@ -12,7 +12,6 @@
     align-items: center;
 
     width: 37.5rem;
-
 }
 
 .wrapBg {
@@ -21,6 +20,7 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
+
 
     height: 667px;
 }
