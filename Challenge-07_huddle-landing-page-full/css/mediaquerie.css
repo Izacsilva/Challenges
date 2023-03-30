@@ -63,6 +63,23 @@
 
     .services {
         width: 100%;
+
+        padding-bottom: 0 19.2rem 12.8rem;
+    }
+
+    .card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.8rem 9.6rem;
+    }
+
+    .card__containerImg {
+        width: 30%;
+    }
+
+    .card__containerText {
+        width: 40%;
     }
 
     
