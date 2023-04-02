@@ -100,6 +100,23 @@
             font-size: 1.8rem;
   
         }
+
+        
+    .footer .footer__logo {     
+        width: 15%;
+    }
+
+    .column {
+        display: grid;
+        grid-template-columns: 35% 25% 25% 25%;
+    }
+
+    .footer__social {
+        justify-content: start;
+    }
+
+
+
     
 
     
