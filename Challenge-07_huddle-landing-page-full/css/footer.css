@@ -22,6 +22,7 @@ footer a:hover {
     display: flex;
     gap: 9.6rem;
     justify-content: space-between;
+    align-items: center;
     max-width: 1440px;
     width: 70%;
     
@@ -31,6 +32,22 @@ footer a:hover {
         width: 30%;
     }
 
+        .footer__logo {
+            fill: white;
+            width: 60%;
+            margin-bottom: 1.8rem;            
+        }
+
+        .address__list .address__item{
+            display: flex;
+            gap: 1.2rem;
+
+        }
+
+        .address__list .address__item img {
+            height: 1.6rem;
+        }
+
     .footer__content__links {
         display: flex;
         gap: 9.6rem;
@@ -38,7 +55,8 @@ footer a:hover {
     }
 
     .ionicon {
-        width: 1.6rem;
+        width: 1.8rem;
+        fill: white;
     }
 
 .footer__copy {
