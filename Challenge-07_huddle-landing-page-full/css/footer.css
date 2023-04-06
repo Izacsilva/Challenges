@@ -19,17 +19,17 @@ footer a:hover {
 }
 
 .footer__content {
-    display: flex;
-    gap: 9.6rem;
-    justify-content: space-between;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
     max-width: 1440px;
     width: 70%;
+    
     
 }
 
     .footer__content__address {
-        width: 30%;
+        flex-basis: 30%;
     }
 
         .footer__logo {
@@ -51,13 +51,23 @@ footer a:hover {
     .footer__content__links {
         display: flex;
         gap: 9.6rem;
-        width: 60%;
+        /* width: 60%; */
     }
 
-    .ionicon {
-        width: 1.8rem;
-        fill: white;
-    }
+        .content__list {
+            display: flex;
+            gap: 1.4rem;
+        }
+
+        .content__list:nth-child(1), .content__list:nth-child(2) {
+            flex-direction: column;
+            
+        } 
+
+            .ionicon {
+                width: 2.4rem;
+                fill: white;
+            }
 
 .footer__copy {
     display: flex;
