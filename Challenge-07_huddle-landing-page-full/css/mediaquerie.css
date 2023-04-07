@@ -1,4 +1,4 @@
-@media (min-width: 720px) and (min-width: 1440px) {
+@media (min-width: 375px) and (min-width: 720px) {
     .container {
         width: 144.0rem;
         
@@ -101,21 +101,91 @@
   
         }
 
+        footer {       
+            padding: 12.8rem 4.8rem 2.4rem;
+        }
         
-    .footer .footer__logo {     
-        width: 15%;
-    }
-
-    .column {
-        display: grid;
-        grid-template-columns: 35% 25% 25% 25%;
-    }
-
-    .footer__social {
-        justify-content: start;
-    }
-
-
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+        }
+   
+        .footer__content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            max-width: 1440px;
+            width: 70%;
+            
+            
+        }
+        
+            .footer__content__address {
+                flex-basis: 30%;
+            }
+        
+                .footer__logo {
+                    fill: white;
+                    width: 60%;
+                    margin-bottom: 1.8rem;            
+                }
+        
+                .address__list .address__item{
+                    display: flex;
+                    gap: 1.2rem;
+        
+                }
+        
+                .address__list .address__item img {
+                    height: 1.6rem;
+                }
+        
+            .footer__content__links {
+                display: flex;
+                gap: 9.6rem;
+                /* width: 60%; */
+            }
+        
+                .content__list {
+                    display: flex;
+                    gap: 1.4rem;
+                }
+        
+                .content__list:nth-child(1), .content__list:nth-child(2) {
+                    flex-direction: column;
+                    
+                } 
+        
+                    .ionicon {
+                        width: 2.4rem;
+                        fill: white;
+                    }
+        
+        .footer__copy {
+            display: flex;
+            justify-content: end;
+        }
+        
+            .attribution {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 1.2rem;
+                
+                text-align: center;
+                line-height: 1.8rem;
+            }
+            .attribution a {
+                color: var(--Pink);
+                font-weight: bold;
+                
+                
+                }
+        
+        
 
     
 

@@ -1,12 +1,20 @@
 footer {
     background: hsl(192, 100%, 9%);
     color: white;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
-    padding: 12.8rem 4.8rem 2.4rem;
+    padding: 12.8rem 2.4rem 2.4rem;
     width: 100vw;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
 }
 
 footer a {
@@ -19,17 +27,17 @@ footer a:hover {
 }
 
 .footer__content {
-    align-items: center;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+
+    margin-bottom: 2.4rem;
     max-width: 1440px;
-    width: 70%;
-    
+    gap: 3.2rem;
     
 }
 
     .footer__content__address {
-        flex-basis: 30%;
+        
     }
 
         .footer__logo {
@@ -50,8 +58,7 @@ footer a:hover {
 
     .footer__content__links {
         display: flex;
-        gap: 9.6rem;
-        /* width: 60%; */
+        gap: 1.4rem;
     }
 
         .content__list {
@@ -62,16 +69,25 @@ footer a:hover {
         .content__list:nth-child(1), .content__list:nth-child(2) {
             flex-direction: column;
             
-        } 
+        }
+
+        .content__list:nth-child(3) {
+            margin-top: 3.2rem;
+            justify-content: center;
+        }
 
             .ionicon {
                 width: 2.4rem;
                 fill: white;
+                transition: fill 0.2s ease; 
+            }
+
+            .ionicon:hover {
+                fill: var(--Pink);
             }
 
 .footer__copy {
-    display: flex;
-    justify-content: end;
+    
 }
 
     .attribution {
