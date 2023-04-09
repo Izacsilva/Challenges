@@ -1,0 +1,25 @@
+body, html {
+    width: 100vw;
+}
+
+body {
+    align-items: center;  
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card {
+    width: 728px;
+    
+    .card__body {
+        display: flex;
+        width: 100%;
+    }
+    
+    .body__price, .body__more-info {
+        flex-basis: 50%;
+    }
+}
+
+
