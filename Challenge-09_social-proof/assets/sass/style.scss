@@ -90,6 +90,22 @@ body {
 
     .container__header {
         padding: 2.4rem;
+
+        .header__result {
+
+            .result__title {
+                font-size: 3.8rem;
+                text-align: center;
+                
+            }
+        }
+        
+        .card__star {
+            background-image: url(../../images/icon-star.svg);
+
+            width: 5* 17px;
+            height: 16px;
+        }
     }
 }
 
