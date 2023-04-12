@@ -54,6 +54,9 @@ body, button, a, p, .card {
 body {
     align-items: center;
     background: $light-grayish-magenta;
+    background-image: url(../../images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
     display: flex;
     font-family: $League-font;
     flex-direction: column;
@@ -78,6 +81,16 @@ body {
 .lg {
     width: 100%;
     padding: 1.2rem 1.6rem;
+}
+
+.container {
+    
+    max-width: 1024px;
+    width: 100%;
+
+    .container__header {
+        padding: 2.4rem;
+    }
 }
 
 
