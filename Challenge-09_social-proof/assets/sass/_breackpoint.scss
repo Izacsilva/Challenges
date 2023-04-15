@@ -1,3 +1,26 @@
-@media screen and (max-width: 720px){
-    
-}
+@import './base/_default';
+
+// Definindo a condição
+@media screen and (min-width: 768px) {
+    // Incluindo as regras de estilo
+    body {
+        body {
+            background-image: url("../../images/bg-pattern-top-desktop.svg");
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: contain;
+                            
+        }
+
+        .container__header {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container__body {
+            display: flex;
+            gap: 1.6rem;
+        }
+    }
+  }
+  

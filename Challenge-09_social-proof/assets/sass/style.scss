@@ -1,14 +1,15 @@
 @import './pages/_home';
-@import '../sass/base/_default';
-@import './base/_variable.scss';
 @import './base/_resert.scss';
+@import './base/_variable.scss';
 @import './base/_typography.scss';
-@import '_breackpoint';
 @import './layout/_footer';
+@import '../sass/base/_default';
+@import './breackpoint';
 
 
 body {
-    background: url("../../images/bg-pattern-top-mobile.svg"), top;
+    background-image: url("../../images/bg-pattern-top-mobile.svg");
+    background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
                     
