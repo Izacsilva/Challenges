@@ -1,0 +1,42 @@
+@import '../base/variable';
+
+.body__card:not(:last-child) {
+    margin-bottom: 1.6rem;
+}
+
+.body__card {
+    color: white;
+    background-color: $very-dark-magenta;
+    border-radius: 0.8rem;
+    gap: 1.8rem;
+    width: inherit;
+    padding: 1.8rem;
+
+    @extend %flex-column;
+
+    .card__user-group {
+        align-items: center;
+        @extend %flex-row;
+        gap: 1.8rem;
+
+        .card__photo-user {
+            width: 4.0rem;
+            border-radius: 50%;
+        }
+
+        .card__name-user p:first-child {
+            font-weight: bold;
+            margin-bottom: 0.4rem;
+        }
+
+        .card__name-user p:last-child {
+            color: $soft-pink;
+            
+        }
+    }
+
+    .body__user-avaliation {
+        line-height: 130%;
+    }
+
+};

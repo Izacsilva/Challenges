@@ -1,0 +1,13 @@
+@import '../base/variable';
+@import '../base/default';
+@import '../layout/container-body';
+@import '../layout/container-header';
+
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    padding: 3.2rem 2.4rem;
+    
+
+}

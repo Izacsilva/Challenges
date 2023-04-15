@@ -1,0 +1,30 @@
+@import './variable';
+
+.e-spacing {
+    margin-bottom: $spacing;
+}
+
+.title {
+    font-size: $title-font-size;
+}
+
+.btn {
+    border: none;
+    border-radius: 0.4rem;
+    font-weight: bold;
+}
+
+.lg {
+    width: 100%;
+    padding: 1.2rem 1.6rem;
+}
+
+%flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+%flex-row {
+    display: flex;
+    flex-direction: row;
+}
