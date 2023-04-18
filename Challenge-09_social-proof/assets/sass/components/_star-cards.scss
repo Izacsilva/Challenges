@@ -1,11 +1,13 @@
 
 .header__result {
 
+        text-align: center;
+    
     margin-bottom: 3.2rem;
     .result__title {
         color: $very-dark-magenta;
         font-size: 3.8rem;
-        text-align: center;
+        
         line-height: 3.2rem;
         margin-bottom: 2.4rem;
     }
@@ -14,7 +16,7 @@
         color: $dark-grayish-magenta;
         font-size: 1.8rem;
         line-height: 2.0rem;
-        text-align: center;
+        
     }
 }
 
