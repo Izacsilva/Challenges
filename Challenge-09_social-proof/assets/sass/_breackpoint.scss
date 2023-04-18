@@ -20,6 +20,13 @@
         .container__body {
             display: flex;
             gap: 1.6rem;
+
+            .body__card {
+                
+                height: 21rem;
+                max-height: 21rem;
+
+            }
         }
     }
   }
