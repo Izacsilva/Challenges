@@ -52,13 +52,28 @@
         .container__body {
             display: flex;
             gap: 1.6rem;
+            height: 232px;
 
             .body__card {
-                
                 height: 21rem;
                 max-height: 21rem;
+                margin: 0;
+                align-self: center;
 
             }
+
+            .body__card:first-child {
+                
+                align-self: flex-start;
+
+            }
+
+            .body__card:last-child {
+                
+                align-self: flex-end;
+
+            }
+
         }
     }
   }
