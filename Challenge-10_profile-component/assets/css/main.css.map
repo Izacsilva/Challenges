@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/elements/index.scss"],"names":[],"mappings":"AAAA,KACI","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/generics/_resert.scss","../scss/settings/_size.scss","../scss/main.scss","../scss/settings/_colors.scss","../scss/tools/function.scss"],"names":[],"mappings":"AAEA,MACI,gBAGJ,EACI,SACA,UACA,sBAGJ,KACI,UCbgB,OCQpB,QACI,YACA,aAEA,WCVQ,QCKE,mCFSV,aAIJ,KACI,WACA,YAEA,gBAEA,eAEA","file":"main.css"}
