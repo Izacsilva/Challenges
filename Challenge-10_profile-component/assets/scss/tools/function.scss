@@ -7,3 +7,10 @@
 @mixin center-x { 
     margin: { left: auto; right: auto; } 
 }
+
+@mixin redondo($value) {
+    height: $value;
+    width: $value;
+
+    border-radius: $value / 2;
+}
