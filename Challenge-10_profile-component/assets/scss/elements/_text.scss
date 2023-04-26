@@ -1,0 +1,9 @@
+@import '../settings/';
+
+.text-gray {
+    color: $dark-gray;
+}
+
+p, span {
+    @extend .text-gray;
+}

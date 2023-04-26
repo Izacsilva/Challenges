@@ -1,9 +1,19 @@
 @import '../settings/';
 
+
+.bold {
+    font-weight: bold;
+}
+
+
+
 h2 {
     font-size: $title-normal;
+    @extend .bold;
 }
 
 h3 {
     font-size: $title-small;
+    @extend .bold;
 }
+
