@@ -1,0 +1,11 @@
+@import '../tools/';
+
+.card {
+    width: 90%;
+    max-width: 28.0rem;
+    border: 1px solid red;
+    border-radius: 0.8rem;
+
+    @include center;
+    flex-direction: column;
+}

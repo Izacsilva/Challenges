@@ -1,0 +1,9 @@
+@import '../tools/';
+
+.container {
+    width: inherit;
+    height: inherit;
+    @include center;
+    flex-direction: column;
+   
+}
