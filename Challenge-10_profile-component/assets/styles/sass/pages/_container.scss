@@ -1,6 +1,9 @@
 .container {
+    position: relative;
     display: flex;
     align-items: center;
     height: 100svh;
+
+    background: $dark-cyan;
 
 }
