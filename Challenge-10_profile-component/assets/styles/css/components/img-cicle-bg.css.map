@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAgB;EACZ,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;EAAE,IAAI,EAAE,IAAI;;AAGzB,kBAAmB;EACf,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,IAAI;EAAE,IAAI,EAAE,GAAG",
+"sources": ["../../sass/components/img-cicle-bg.scss"],
+"names": [],
+"file": "img-cicle-bg.css"
+}
