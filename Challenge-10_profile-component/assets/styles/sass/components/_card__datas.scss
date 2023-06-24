@@ -1,0 +1,16 @@
+.card__datas {
+    display: flex;
+    border-top: solid 1px #2e303822;
+    justify-content: space-between;
+    padding: 2.4rem 5.6rem;
+    margin-top: 3.2rem;
+
+    .datas__data p{
+        color: $dark-grayish-blue;
+        font-size: 1rem;
+        margin-top: 0.8rem;
+        letter-spacing: 0.21rem;
+
+    }
+
+}

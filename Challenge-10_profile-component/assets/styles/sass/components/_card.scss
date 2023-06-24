@@ -1,14 +1,24 @@
 .card{
     align-items: center;
     background: white;
+    border-radius: 1.6rem;
     display: flex;
     flex-direction: column;
-    max-width: 280px;
+    max-width: 350px;
     margin: 0 auto;
+
+    .card__content {
+        position: relative;
+        text-align: center;
+    }
+
+    .card__bgPattern {
+        border-radius: 1.6rem 1.6rem 0 0;
+        max-width: 350px;
+        width: 100%;
+
+    }
     
 }
 
-.card__content {
-    position: relative;
-    text-align: center;
-}
+
