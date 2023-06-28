@@ -1,7 +1,11 @@
 footer {
+    
     position: relative;
     
     left: 50%;
     transform: translateX(-50%);
     bottom: 0px;
 }
+
+.attribution { font-size: 13px; text-align: center; letter-spacing: 0.08rem; color: $Very-dark-grayish-blue;}
+.attribution a { color: hsl(228, 45%, 44%); text-decoration: none; letter-spacing: 0.04rem;}
