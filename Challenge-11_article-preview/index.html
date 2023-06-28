@@ -10,7 +10,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;500;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./src/styles/css/main.css">
 
@@ -50,21 +50,23 @@
             <span>28 Jun 2020</span>
           </div>
           <div class="containerBtnShare">
-            <button><img src="./src/images/icon-share.svg" alt="botão de compartilhamento"></button>
+            <button><img src="./src/images/icon-share.svg" alt="botão de compartilhamento" class="btn-share"></button>
           </div>
         </div>
-        <!-- <div class="card__shareModal">
-          <div>SHARE</div>
-          <div>
-            <img src="./src/images/icon-facebook.svg" alt="icone-facebook">
-            <img src="./src/images/icon-twitter.svg" alt="icone-twitter">
-            <img src="./src/images/icon-pinterest.svg" alt="icone-pinterest">
-          </div>
-          <div class="containerBtnShare modal">
-            <button class="btnShare"><img src="./src/images/icon-share.svg" alt="botão de compartilhamento"></button>
-          </div>
-        </div> -->
       </section>
+      <div class="card__shareModal">
+        <span>SHARE</span>
+        <div class="shareModal__socialMidia">
+          <img src="./src/images/icon-facebook.svg" alt="icone-facebook">
+          <img src="./src/images/icon-twitter.svg" alt="icone-twitter">
+          <img src="./src/images/icon-pinterest.svg" alt="icone-pinterest">
+        </div>
+        <div class="containerBtnShare modal">
+          <button class="btnShare">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path  d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+          </button>
+        </div>
+      </div>
     </div>
   </main>
   
@@ -72,5 +74,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/Izacsilva">Izaclislanio</a>.
   </footer>
+
+  <script src="./src/script/share_modal.js"></script>
 </body>
 </html>

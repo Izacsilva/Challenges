@@ -28,20 +28,21 @@
         .card__tile {
             color: $Very-dark-grayish-blue;
             font-size: 1.8rem;
-            margin-top: 1.6rem;
+            margin-top: 1.8rem;
         }
 
         .card__text {
             color: $Desaturated-dark-blue;
             font-size: 1.3rem;
-            margin-top: 1.6rem;
+            margin-top: 1.8rem;
+            line-height: 2.1rem;
         }
     }
 
     .card__footer {
         display: flex;
         justify-content: space-between;
-        padding: 3.2rem;
+        padding: 1.6rem 3.2rem;
 
         .footer__userCard {
             
@@ -49,21 +50,77 @@
             justify-content: space-between;
             align-items: center;
             width: 100%;
-        }
 
-        .userImg {
-            width: calc(3 * 1.6rem);
-            display: flex;
-
-            .userImg__image {
-                width: 100%;
-                object-fit: cover;
+            .userImg {
+            
+                display: flex;
+                width: calc(3 * 1.6rem);
+    
+                .userImg__image {
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+    
+                .card__shareModal {
+                    display: none;
+                }
+            }
+    
+            .userInfo {
+                p {
+                    color: $Very-dark-grayish-blue;
+                    font-size: 1.4rem;
+                }
+    
+                span {
+                    color: $Desaturated-dark-blue;
+                    font-size: 1.3rem;
+                }
             }
 
-            .card__shareModal {
-                display: none;
+            .containerBtnShare button {
+                border: none;
+                padding: 0.8rem;
+                border-radius: 50%;
             }
         }
 
+        
+
+        
+
+    }
+
+    .card__shareModal {
+        background: $Very-dark-grayish-blue;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 2.1rem 2.4rem;
+
+        border-radius: 0 0 0.8rem 0.8rem;
+
+
+        span {
+            font-size: 1.3rem;
+            font-weight: 200;
+            color: white;
+            letter-spacing: 0.4rem;
+        }
+
+        .shareModal__socialMidia img{
+            margin-right: 1.6rem;
+        }
+
+        .btnShare {
+            border-radius: 50%;
+            background: $Desaturated-dark-blue;
+            fill: white;
+            border: none;
+            padding: 0.8rem;
+            
+        }
     }
 }   
