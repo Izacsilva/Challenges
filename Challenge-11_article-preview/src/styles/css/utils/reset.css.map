@@ -3,5 +3,5 @@
 "mappings": "AAAA,KAAM;EACF,SAAS,EAAE,KAAK;;AAGpB,CAAE;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;;AAK1B,IAAI;EACA,WAAW,EAAE,qBAAqB;EAClC,SAAS,EAAE,MAAM;EAEjB,OAAO,EAAE,IAAI",
 "sources": ["../../sass/utils/reset.scss"],
 "names": [],
-"file": "index.css"
+"file": "reset.css"
 }

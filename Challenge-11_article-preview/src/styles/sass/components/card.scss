@@ -1,0 +1,69 @@
+.card {
+    background: white;
+    border-radius: 0.6em;
+    min-width: 28.0rem;
+    width: 34.0rem;
+    
+    .card__header {
+        width: 100%;
+        
+        .container__img {
+
+            width: 100%;
+            height: 21rem;
+
+
+            .card__image {
+                border-radius: 0.8rem 0.8rem 0 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .card__main {
+        padding: 2.4rem;
+
+        .card__tile {
+            color: $Very-dark-grayish-blue;
+            font-size: 1.8rem;
+            margin-top: 1.6rem;
+        }
+
+        .card__text {
+            color: $Desaturated-dark-blue;
+            font-size: 1.3rem;
+            margin-top: 1.6rem;
+        }
+    }
+
+    .card__footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 3.2rem;
+
+        .footer__userCard {
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .userImg {
+            width: calc(3 * 1.6rem);
+            display: flex;
+
+            .userImg__image {
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .card__shareModal {
+                display: none;
+            }
+        }
+
+    }
+}   
