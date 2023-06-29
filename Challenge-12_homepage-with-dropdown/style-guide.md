@@ -25,3 +25,9 @@ The designs were created to the following widths:
 
 - Family: [Epilogue](https://fonts.google.com/specimen/Epilogue)
 - Weights: 500, 700
+
+
+
+### code sass
+
+- sass --watch src/styles/sass/main.scss:src/styles/css/main.css --style compressed --no-source-map
