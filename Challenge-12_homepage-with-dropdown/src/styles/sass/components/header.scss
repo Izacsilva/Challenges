@@ -1,0 +1,15 @@
+.header {
+    height: 9.6rem;
+    align-items: center;
+    // background: #e0e0e0;
+}
+
+.header, .header--left, .header--right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header--left {
+    align-items: center;
+    gap: 9.6rem;
+}
