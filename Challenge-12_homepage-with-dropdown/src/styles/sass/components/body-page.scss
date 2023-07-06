@@ -37,6 +37,13 @@
             font-size: 1.8rem;
             width: 40%;
 
+            &:hover {
+                color: hsl(0, 0%, 41%);
+                background: none;
+                outline: 0.2rem solid hsl(0, 0%, 41%);
+                outline-offset: -0.2rem;
+                // border: 0.2rem solid hsl(0, 0%, 41%);
+            }
         }
         
         .clients {

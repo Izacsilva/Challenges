@@ -3,8 +3,15 @@
     border: none;
     border-radius: 0.8em;
     padding: 1.6rem 2.4rem;
+    cursor: pointer;
 }
 
 .btn--stroke {
-    border: 0.2rem solid hsl(0, 0%, 41%);
+    outline: 0.2rem solid hsl(0, 0%, 41%);
+    outline-offset: -0.2rem;
+}
+
+.btn--stroke:hover {
+    outline: 0.2rem solid $Almost-Black;
+    outline-offset: -0.2rem;
 }

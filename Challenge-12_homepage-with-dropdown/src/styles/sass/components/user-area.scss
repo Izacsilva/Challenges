@@ -1,0 +1,9 @@
+.userArea {
+    display: flex;
+    gap: 4.8rem;
+
+    .userArea__item a:hover {
+        color: $Almost-Black;
+    }
+}
+
