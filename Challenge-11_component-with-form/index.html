@@ -13,10 +13,11 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
  <div id="app">
-  
   <main>
     <section class="app__textInformation">
       <h1 class="textInformation__title">
@@ -28,9 +29,6 @@
         but understanding how developers think is invaluable.
       </p> 
     
-      
-    
-      
     </section>
     <section class="app__form">
 
@@ -41,21 +39,29 @@
       <form>
        <fieldset>
         <div class="inputGroup">
-          <label for="name"></label>
-          <input type="text" name="name" id="name" placeholder="First Name">
+          <label for="firtname"></label>
+          <input type="text" name="firtname" id="firtname" placeholder="First Name">
         </div>
-        Last Name 
-        Email Address
-        Password
-    
-        Claim your free trial
+        <div class="inputGroup">
+          <label for="lastName"></label>
+          <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+        </div> 
+        <div class="inputGroup">
+          <label for="userEmail"></label>
+          <input type="email" name="userEmail" id="userEmail" placeholder="Email address">
+        </div> 
+        <div class="inputGroup">
+          <label for="userPassword"></label>
+          <input type="password" name="userPassword" id="userPassword" placeholder="Password">
+        </div>
+
+        <button type="button">Claim your free trial</button>
        </fieldset> 
     
-      By clicking the button, you are agreeing to our Terms and Services
+      By clicking the button, you are agreeing to our <a href="#"><strong>Terms and Services</strong></a>
       </form>
     </section>
   </main>
-  
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
