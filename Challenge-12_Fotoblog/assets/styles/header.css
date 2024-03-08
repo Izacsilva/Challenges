@@ -1,0 +1,15 @@
+.wrapper {
+    background: white;
+}
+
+.headerGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerGroup nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
