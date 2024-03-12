@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="./assets/styles/default.css">
     <link rel="stylesheet" href="./assets/styles/header.css">
+    <link rel="stylesheet" href="./assets/styles/footer.css">
+    <link rel="stylesheet" href="./assets/styles/main_imagens.css">
 </head>
 <body>
     <div id="app">
@@ -20,8 +22,8 @@
                                 <img src="./assets/images/logo.svg" alt="">
                             </figure>
                         </li>
-                        <li>Home</li>
-                        <li><strong>Galeria</strong></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#"><strong>Galeria</strong></a></li>
                     </ul>
                 </nav>
                 <form><input type="search" id="buscar" placeholder="Pesquise por imagens e coleções"></form>
@@ -30,6 +32,15 @@
                 </figure>
             </div>
         </header>
+        <main>
+            <h1>Imagens Unsplash</h1>
+            <div id="imagens"></div>
+        </main>
+        <footer>
+            <p>&#169; 2004 - fotoblog</p>
+        </footer>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>

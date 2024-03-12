@@ -1,0 +1,17 @@
+
+  #imagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .imagem {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .legenda {
+    font-size: 0.8em;
+    color: #666;
+  }
