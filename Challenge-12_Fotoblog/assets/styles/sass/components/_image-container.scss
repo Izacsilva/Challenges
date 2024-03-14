@@ -1,0 +1,32 @@
+
+#imagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .imagem {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .legenda {
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  .mainGroup {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    place-content: center;
+    
+  }
+
+  main .itens {
+    width: 350px;
+    height: 200px;
+    background: #000;
+  }

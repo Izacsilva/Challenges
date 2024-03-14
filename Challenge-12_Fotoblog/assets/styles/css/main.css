@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url(./default.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  color: #202024;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: #F5F5F5;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#app {
+  height: 100vh;
+  position: relative;
+}
+
+main img {
+  height: 300px;
+}
+
+.wrapper {
+  width: 100vw;
+}
+
+header, footer {
+  background: white;
+  width: 100vw;
+}
+
+#imagens {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.imagem {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+
+.legenda {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.mainGroup {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  place-content: center;
+}
+
+main .itens {
+  width: 350px;
+  height: 200px;
+  background: #000;
+}
+
+.wrapper {
+  width: 100vw;
+}
+
+.headerGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 16px 0;
+  gap: 6.2rem;
+}
+
+form {
+  flex: 2;
+  width: 100%;
+}
+
+form #buscar {
+  width: 100%;
+  padding: 1.2rem 1.6rem;
+  border: none;
+  border-radius: 0.6rem;
+  background: #EEEEEE;
+}
+
+.headerGroup nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6.2rem;
+}
+
+.headerGroup .profile img {
+  height: 4.2rem;
+  border-radius: 50%;
+}
+
+.headerGroup nav .logo img {
+  height: 4rem;
+}
+
+footer {
+  background: white;
+  padding: 2.4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=main.css.map */

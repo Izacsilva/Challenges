@@ -1,0 +1,44 @@
+.wrapper {
+    width: 100vw;
+}
+
+.headerGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90%;
+    margin: auto;
+    padding: 16px 0;
+    gap: 6.2rem;
+}
+
+form {
+    flex: 2;
+    width: 100%;
+}
+
+form #buscar {
+    width: 100%;
+    padding: 1.2rem 1.6rem;
+    border: none;
+    border-radius: 0.6rem;
+    background: #EEEEEE;
+}
+
+.headerGroup nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6.2rem;
+}
+
+
+.headerGroup .profile img {
+    height: 4.2rem;
+    border-radius: 50%;
+}
+
+.headerGroup nav .logo img{
+    height: 4rem;
+}
