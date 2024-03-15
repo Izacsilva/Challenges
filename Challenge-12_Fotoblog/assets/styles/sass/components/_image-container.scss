@@ -1,32 +1,56 @@
+main {
+  margin: 3.6rem 0;
+}
+
+
+main h1 {
+  font-size: 2.4rem;
+  width: 90%;
+  margin: 0 auto;
+
+  margin-bottom: 3.6rem;
+
+}
 
 #imagens {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 10px;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .imagem {
-    border: 1px solid #ccc;
-    padding: 5px;
-    text-align: center;
+    width: 100%;
+  }
+
+  .imagem .photo {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
   }
 
   .legenda {
-    font-size: 0.8em;
-    color: #666;
-  }
-
-  .mainGroup {
+    background: white;
+    color: #202024;
+    padding: 2.4rem;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    place-content: center;
-    
   }
 
-  main .itens {
-    width: 350px;
-    height: 200px;
-    background: #000;
+  .legenda h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  .legenda span {
+    font-size: 1.2rem;
+    font-weight: normal;
+    background-color: rgb(236, 236, 236);
+    padding: 0.6rem;
+    text-transform: uppercase;
+  }
+
+  main {
+    display: grid;
+    place-content: center;
   }
