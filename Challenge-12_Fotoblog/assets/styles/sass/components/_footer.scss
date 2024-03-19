@@ -8,4 +8,14 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
+
+    animation: positionY 2s ease;
+    animation-fill-mode: forwards;
+    animation-interation-count: 1;
+}
+
+@keyframes positionY {
+    100% {
+        bottom: 0;
+    }
 }

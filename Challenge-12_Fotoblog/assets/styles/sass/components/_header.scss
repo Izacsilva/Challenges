@@ -42,3 +42,18 @@ form #buscar {
 .headerGroup nav .logo img{
     height: 4rem;
 }
+
+header {
+    animation: move 0.6s ease;
+}
+
+
+@keyframes move {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+
+    }
+}
