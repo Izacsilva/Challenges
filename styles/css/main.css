@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* primary color */
+  --Soft-blue: hsl(215, 51%, 70%);
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Fustat", sans-serif;
+}
+
+
+
+/*# sourceMappingURL=main.css.map */
