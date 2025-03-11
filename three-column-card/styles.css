@@ -1,0 +1,68 @@
+/* Reset CSS básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+  }
+
+  :root {
+
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+
+    font-family: "Lexend Deca", "Big Shoulders", sans-serif;
+
+    font-size: 62.5%;
+  }
+  
+  
+  /* Configurações gerais do documento */
+  html {
+    font-size: 16px; /* Facilita o uso de unidades rem (boa prática) */
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif; /* Altere para sua tipografia preferida */
+    color: #333; /* Cor primária do texto */
+    background-color: #f9f9f9; /* Cor de fundo clara e neutra */
+    line-height: 1.6; /* Boa legibilidade */
+    font-size: 1.6rem;
+  }
+  
+  /* Estilos para cabeçalhos */
+  h1, h2, h3, h4, h5, h6 {
+    
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-family: "Big Shoulders", sans-serif;
+    text-transform: uppercase;
+  }
+
+  
+  /* Layout de container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  /* Regras responsivas */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      width: 100%;
+    }
+  }
+  
