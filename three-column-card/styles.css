@@ -11,6 +11,8 @@
     --bright-orange: hsl(31, 77%, 52%);
     --dark-cyan: hsl(184, 100%, 22%);
     --very-dark-cyan: hsl(179, 100%, 13%);
+    --ligth-gray: hsl(0, 0%, 95%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
 
 
     font-family: "Lexend Deca", "Big Shoulders", sans-serif;
@@ -27,17 +29,16 @@
   
   body {
     font-family: 'Arial', sans-serif; /* Altere para sua tipografia preferida */
-    color: #333; /* Cor primária do texto */
-    background-color: #f9f9f9; /* Cor de fundo clara e neutra */
+    background-color: var(--ligth-gray); /* Cor de fundo clara e neutra */
     line-height: 1.6; /* Boa legibilidade */
     font-size: 1.6rem;
   }
   
   /* Estilos para cabeçalhos */
   h1, h2, h3, h4, h5, h6 {
-    
-    margin-bottom: 1rem;
-    font-weight: 600;
+    margin: 2.4rem 0;
+    font-size: 3.6rem;
+    font-weight: 500;
     font-family: "Big Shoulders", sans-serif;
     text-transform: uppercase;
   }
@@ -51,8 +52,30 @@
     padding: 1rem;
   }
 
-  .text-center {
-    text-align: center;
+  .cards {
+    color: white;
+  }
+
+  .card {
+    padding: 4.8rem;
+  }
+
+  .card p {
+    color: var(--transparent-white);
+    margin-bottom: 3.2rem;
+  }
+
+  .card:first-child {
+    background: var(--bright-orange);
+  }
+  
+  
+  .card:nth-child(2) {
+    background: var(--dark-cyan);
+  }
+
+  .card:last-child {
+    background: var(--very-dark-cyan);
   }
 
   /* Regras responsivas */
