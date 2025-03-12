@@ -73,6 +73,28 @@
           <a class="footer__link" href="#">link03</a>
         </div>
       </footer>
+
+      <h2>Outros Desafios</h2>
+      <ul id="lista-desafios">
+        <!-- Os links dinâmicos serão inseridos aqui -->
+      </ul>
     </main>
+    <script>
+        const desafios = [
+            { nome: "Desafio 1: Google Page", caminho: "./Challenge-01_Google page/index.html" },
+            { nome: "Desafio 3: Resultados", caminho: "./Challenge-03_results-summary/index.html" },
+            { nome: "Desafio 4: Landing Page", caminho: "./Challenge-04_landing-page/index.html" },
+            { nome: "Desafio 12: Fotoblog", caminho: "./Challenge-12_Fotoblog/index.html" },
+            // Adicione mais desafios conforme necessário
+        ];
+
+        const listaDesafios = document.getElementById('lista-desafios');
+
+        desafios.forEach(desafio => {
+            const li = document.createElement('li');
+            li.innerHTML = `<a href="${desafio.caminho}">${desafio.nome}</a>`;
+            listaDesafios.appendChild(li);
+        });
+    </script>
   </body>
 </html>

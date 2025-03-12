@@ -213,4 +213,30 @@ footer {
   }
 }
 
+.challenges {
+    margin: 20px;
+}
+
+.challenges h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.challenges ul {
+    list-style-type: none;
+}
+
+.challenges li {
+    margin: 10px 0;
+}
+
+.challenges a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.challenges a:hover {
+    text-decoration: underline;
+}
+
 /*# sourceMappingURL=main.css.map */
