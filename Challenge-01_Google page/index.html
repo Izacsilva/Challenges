@@ -79,22 +79,12 @@
         <!-- Os links dinâmicos serão inseridos aqui -->
       </ul>
     </main>
+    
+    <!-- Importar o arquivo listaDesafios.js -->
+    <script src="/scripts/listaDesafios.js"></script>
     <script>
-        const desafios = [
-            { nome: "Desafio 1: Google Page", caminho: "./Challenge-01_Google page/index.html" },
-            { nome: "Desafio 3: Resultados", caminho: "./Challenge-03_results-summary/index.html" },
-            { nome: "Desafio 4: Landing Page", caminho: "./Challenge-04_landing-page/index.html" },
-            { nome: "Desafio 12: Fotoblog", caminho: "./Challenge-12_Fotoblog/index.html" },
-            // Adicione mais desafios conforme necessário
-        ];
-
-        const listaDesafios = document.getElementById('lista-desafios');
-
-        desafios.forEach(desafio => {
-            const li = document.createElement('li');
-            li.innerHTML = `<a href="${desafio.caminho}">${desafio.nome}</a>`;
-            listaDesafios.appendChild(li);
-        });
+        // Chamar a função para gerar links, excluindo o desafio atual
+        gerarLinksDesafiosSemAtual('lista-desafios');
     </script>
   </body>
 </html>

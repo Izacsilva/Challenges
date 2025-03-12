@@ -13,17 +13,20 @@
     <main>
         <section class="challenges">
             <h2>Desafios Disponíveis</h2>
-            <ul>
-                <li><a href="./Challenge-01_Google page/index.html">Desafio 1: Google Page</a></li>
-                <li><a href="./Challenge-03_results-summary/index.html">Desafio 3: Resultados</a></li>
-                <li><a href="./Challenge-04_landing-page/index.html">Desafio 4: Landing Page</a></li>
-                <li><a href="./Challenge-12_Fotoblog/index.html">Desafio 12: Fotoblog</a></li>
-                <!-- Adicione mais desafios conforme necessário -->
+            <ul id="lista-desafios">
+                <!-- Os links dinâmicos serão inseridos aqui -->
             </ul>
         </section>
     </main>
     <footer>
         <p>&#169; 2023 - Todos os direitos reservados</p>
     </footer>
+
+    <!-- Importar o arquivo listaDesafios.js -->
+    <script src="/scripts/listaDesafios.js"></script>
+    <script>
+        // Chamar a função para gerar todos os links
+        gerarLinksDesafios('lista-desafios');
+    </script>
 </body>
 </html> 
