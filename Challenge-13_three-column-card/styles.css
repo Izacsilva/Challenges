@@ -75,7 +75,12 @@
     border: none;
     border-radius: 2.4rem;
     padding: 1.2rem 2.4rem;
+
+    cursor: pointer;
   }
+
+  
+
 
   .card:first-child {
     background: var(--bright-orange);
@@ -85,6 +90,9 @@
     .btn-Lmore {
       color: var(--bright-orange);
     }
+    .btn-Lmore:hover {
+      color: white;
+    }
   }
 
 
@@ -93,6 +101,9 @@
 
     .btn-Lmore {
       color: var(--dark-cyan);
+    }
+    .btn-Lmore:hover {
+      color: white;
     }
   }
 
@@ -104,7 +115,19 @@
     .btn-Lmore {
       color: var(--very-dark-cyan);
     }
+
+    .btn-Lmore:hover {
+      color: white;
+    }
   }
+
+  .btn-Lmore:hover {
+    background: none;
+    outline: 2px solid white;
+    outline-offset: -2px;
+    
+  }
+
 
   /* Regras responsivas */
   @media (max-width: 768px) {
