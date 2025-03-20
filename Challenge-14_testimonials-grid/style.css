@@ -31,10 +31,65 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 1.3rem; /* Corrigido para usar rem */
     line-height: 1.5;
-    background-color: var(--white);
+    background-color: var(--grey-100);
     color: var(--dark-blue);
 } 
 
-main {
+/*
+
+O desafio está sendo relembrar sobre layout grid.
+ */
+
+.card {
+    padding: 2.4rem;
+    background: var(--white);
+    border-radius: 1.2rem;
+    box-shadow: 0 24px 24px rgba(0, 0, 0, 0.1);
     display: grid;
+    gap: 1.6rem;
+}
+
+.card:first-child {
+    grid-column: 1/3;
+    background: var(--purple-500);
+    color: var(--white);
+}
+
+.card:nth-child(2) {
+    background: var(--grey-500);
+    color: white;
+}
+
+.card:last-child {
+    grid-column: 4/5;
+    grid-row: 1/3;
+}
+
+.card:nth-child(4) {
+    grid-column: 2/4;
+    background: var(--dark-blue);
+    color: white;
+}
+
+.userInfo {
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.userInfo .imgUser img {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.userInfo h1 {
+    font-size: 1.6rem;
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2.4rem;
+    }
 }
