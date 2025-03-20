@@ -34,3 +34,7 @@ body {
     background-color: var(--white);
     color: var(--dark-blue);
 } 
+
+main {
+    display: grid;
+}
