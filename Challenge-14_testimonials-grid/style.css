@@ -33,6 +33,9 @@ body {
     line-height: 1.5;
     background-color: var(--grey-100);
     color: var(--dark-blue);
+    display: grid;
+    place-content: center;
+    height: 100vh;
 } 
 
 /*
@@ -40,8 +43,14 @@ body {
 O desafio está sendo relembrar sobre layout grid.
  */
 
+ main {
+    max-width: 1440px;
+    
+ }
+
 .card {
-    padding: 2.4rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    padding: 2.4rem 3.2rem;
     background: var(--white);
     border-radius: 1.2rem;
     box-shadow: 0 24px 24px rgba(0, 0, 0, 0.1);
@@ -84,6 +93,7 @@ O desafio está sendo relembrar sobre layout grid.
 
 .userInfo h1 {
     font-size: 1.6rem;
+    font-weight: 500;
 }
 
 @media screen and (min-width: 900px) {
