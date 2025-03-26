@@ -35,7 +35,7 @@ body {
     color: var(--dark-blue);
     display: grid;
     place-content: center;
-    height: 100vh;
+    min-height: 100vh;
 } 
 
 /*
@@ -45,7 +45,8 @@ O desafio está sendo relembrar sobre layout grid.
 
  main {
     max-width: 1440px;
-    
+    padding: 2.4rem;
+
  }
 
 .card {
@@ -78,6 +79,10 @@ O desafio está sendo relembrar sobre layout grid.
     grid-column: 2/4;
     background: var(--dark-blue);
     color: white;
+}
+
+.card:not(:last-child) {
+    margin-bottom: 2.4rem;
 }
 
 .userInfo {
